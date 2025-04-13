@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Fest 2025: Web Development Round 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #e0e7ff, #c3e8ff);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #007bff;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .instructions {
+            margin: 20px 0;
+            background: #f8f9fa;
+            padding: 15px;
+            border-left: 5px solid #28a745;
+            border-radius: 5px;
+        }
+
+        .instructions h3 {
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+
+        .question {
+            margin: 20px 0;
+            padding: 20px;
+            background: #e9f7ff;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .question:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .question h3 {
+            color: #0056b3;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .question p, .question ul {
+            font-size: 1em;
+            color: #333;
+        }
+
+        .question ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            .question {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tech Fest 2025: Web Development Challenge</h1>
+            <p>Round 1 - Medium Level Questions</p>
+        </header>
+
+        <div class="instructions">
+            <h3>Instructions</h3>
+            <p>
+                Welcome to Round 1 of the Web Development event! Solve the 4 questions below to qualify for Round 2.
+                Submit your solutions as working code (HTML, CSS, JavaScript) via the provided submission link.
+                Time limit: 2 hours. Use only standard web technologies (no frameworks unless specified).
+                Good luck!
+            </p>
+        </div>
+
+        <div class="question">
+            <h3>Question 1: Responsive Navigation Bar</h3>
+            <p>
+                Create a responsive navigation bar using HTML and CSS. The navbar should:
+            </p>
+            <ul>
+                <li>Display horizontally on desktop (width > 768px) with 4 links: Home, About, Services, Contact.</li>
+                <li>Collapse into a hamburger menu on mobile (width ≤ 768px) that toggles to show links vertically.</li>
+                <li>Use CSS only for the toggle functionality (no JavaScript).</li>
+            </ul>
+            <p><strong>Output</strong>: A working navbar with responsive behavior.</p>
+        </div>
+
+        <div class="question">
+            <h3>Question 2: Form Validation with JavaScript</h3>
+            <p>
+                Build a registration form with fields for username, email, and password. Validate using JavaScript:
+            </p>
+            <ul>
+                <li>Username: Minimum 5 characters.</li>
+                <li>Email: Must contain "@" and a domain (e.g., ".com").</li>
+                <li>Password: Minimum 8 characters, at least one number.</li>
+                <li>Show error messages below each field if validation fails.</li>
+                <li>Display a success message if all inputs are valid.</li>
+            </ul>
+            <p><strong>Output</strong>: A functional form with validation and messages.</p>
+        </div>
+
+        <div class="question">
+            <h3>Question 3: Dynamic To-Do List</h3>
+            <p>
+                Create a to-do list app using HTML, CSS, and JavaScript. Features:
+            </p>
+            <ul>
+                <li>Add tasks via an input field.</li>
+                <li>Mark tasks as complete (e.g., strikethrough or checkbox).</li>
+                <li>Delete tasks.</li>
+                <li>Store tasks in <code>localStorage</code> to persist after page refresh.</li>
+            </ul>
+            <p><strong>Output</strong>: A working to-do list with all features.</p>
+        </div>
+
+        <div class="question">
+            <h3>Question 4: CSS Grid Photo Gallery</h3>
+            <p>
+                Design a photo gallery with 6 images using CSS Grid. Requirements:
+            </p>
+            <ul>
+                <li>Desktop (width > 1024px): 3x2 grid.</li>
+                <li>Tablet (768px-1024px): 2x3 grid.</li>
+                <li>Mobile (width ≤ 768px): Stack images vertically.</li>
+                <li>Ensure images scale without distortion.</li>
+            </ul>
+            <p><strong>Output</strong>: A responsive gallery with correct layouts.</p>
+        </div>
+
+        <footer>
+            <p>ALMATRIX 2K25 | Organized by SVCN | CO-ORDINATOR : JAIBALAJI</p>
+        </footer>
+    </div>
+</body>
+</html>
